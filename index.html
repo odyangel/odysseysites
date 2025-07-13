@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Odyssey - Celluloid Days With Ody</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600&family=Crimson+Text:wght@400;600&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            playfair: ['Playfair Display', 'serif'],
+            inter: ['Inter', 'sans-serif'],
+            crimson: ['Crimson Text', 'serif'],
+            dancing: ['Dancing Script', 'cursive'],
+          },
+        },
+      },
+    };
+  </script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-stone-50 to-red-50">
+  <header class="w-full bg-white/95 backdrop-blur-md border-b border-red-100">
+    <div class="max-w-7xl mx-auto px-8 py-6 text-center">
+      <div class="font-playfair text-6xl font-bold text-red-800 italic">ODYSSEY</div>
+      <div class="font-crimson text-lg text-red-600 italic tracking-widest">Celluloid Days With Ody</div>
+    </div>
+  </header>
+
+  <section class="relative h-[32rem] flex items-center justify-center bg-cover bg-center bg-no-repeat" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(139,0,0,0.3)), url('https://readdy.ai/api/search-image?query=Luxury vintage cinema interior&width=1400&height=500')">
+    <div class="text-center text-white z-10 max-w-4xl mx-auto px-8">
+      <h1 class="font-playfair text-6xl font-bold mb-6">Curated Cinema Excellence</h1>
+      <p class="font-crimson text-xl mb-10">Where sophisticated storytelling meets discerning taste.</p>
+    </div>
+  </section>
+
+  <footer class="bg-white border-t border-red-100 py-16">
+    <div class="max-w-7xl mx-auto px-8 text-center text-red-600 font-inter text-sm">
+      2024 Odyssey. Crafted with passion for cinema excellence.
+    </div>
+  </footer>
+</body>
+</html>
